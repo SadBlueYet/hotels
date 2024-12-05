@@ -22,7 +22,8 @@ def create_messages(amenities: list[Amenity], img_url: str) -> list[dict]:
             "content": [
                 {
                     "type": "text",
-                    "text": f"{prompt}\nWhich of the amenities described above are shown in the photo? Specify only those amenities that can be clearly identified.",
+                    "text": f"{prompt}\nWhich of the amenities described above are shown in the photo?"
+                    + "Specify only those amenities that can be clearly identified.",
                 },
                 {
                     "type": "image_url",
