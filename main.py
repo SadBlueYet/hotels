@@ -1,7 +1,8 @@
 import json
 import logging
+import sys
 
-from openai import OpenAI
+from openai import OpenAI, PermissionDeniedError
 
 from config import settings
 from models import Amenities, Amenity
@@ -55,9 +56,13 @@ class HotelAmenitiesDetector:
         self.client = OpenAI(api_key=settings.LLM.OPENAI_API_KEY)
 
     def analyze_image(self, messages: list[dict]) -> Amenities:
-        completion = self.client.beta.chat.completions.parse(
-            model=self.model, messages=messages, response_format=Amenities
-        )
+        try:
+            completion = self.client.beta.chat.completions.parse(
+                model=self.model, messages=messages, response_format=Amenities
+            )
+        except Exception as e:
+            logging.error(e)
+            sys.exit(1)
         return completion.choices[0].message.parsed
 
 
