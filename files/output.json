@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Свисс Хауз (Swiss House)",
+        "amenities": [
+            {
+                "c_amenity_id": 1387,
+                "c_amenity_name": "Wi-Fi в номере",
+                "c_amenity_group_id": 2079,
+                "c_amenity_group_name": "Интернет",
+                "c_amenity_group_priority": 4,
+                "c_amenity_priority_inside_group": 3
+            }
+        ],
+        "images": [
+            "https://cdn.bronevik.com/static/photo/g/d943462bccf182088ae2fc809c92068a",
+            "https://cdn.bronevik.com/static/photo/g/1f7a71f04acd944e4c6a4bb553f255f2",
+            "https://cdn.bronevik.com/static/photo/g/4bb756873a3bd6b370583c2b3e79f63f",
+            "https://cdn.bronevik.com/static/photo/g/d182d95d8998999d70ac3434a4ada9fe"
+        ]
+    },
+    {
+        "name": "Tea Rose (Чайная Роза)",
+        "amenities": [
+            {
+                "c_amenity_id": 1442,
+                "c_amenity_name": "Парковка",
+                "c_amenity_group_id": 2034,
+                "c_amenity_group_name": "Транспорт",
+                "c_amenity_group_priority": 18,
+                "c_amenity_priority_inside_group": 4
+            },
+            {
+                "c_amenity_id": 1394,
+                "c_amenity_name": "Круглосуточная стойка регистрации",
+                "c_amenity_group_id": 2026,
+                "c_amenity_group_name": "Стойка регистрации",
+                "c_amenity_group_priority": 19,
+                "c_amenity_priority_inside_group": 1
+            }
+        ],
+        "images": [
+            "https://cdn.bronevik.com/static/photo/g/9afa1ae74218c0e88b89a4bc4e8a1e5e",
+            "https://cdn.bronevik.com/static/photo/g/cb4f275ca4c760a5eaa5d270e8406c69",
+            "https://cdn.bronevik.com/static/photo/g/d71462441b76f4de6abea906ea0bb1d5",
+            "https://cdn.bronevik.com/static/photo/g/32cb8e4f44e707c81333524b6e954417"
+        ]
+    },
+    {
+        "name": "Maldini 1899 Boutique Hotel (Мальдини 1899)",
+        "amenities": [
+            {
+                "c_amenity_id": 1442,
+                "c_amenity_name": "Парковка",
+                "c_amenity_group_id": 2034,
+                "c_amenity_group_name": "Транспорт",
+                "c_amenity_group_priority": 18,
+                "c_amenity_priority_inside_group": 4
+            },
+            {
+                "c_amenity_id": 1387,
+                "c_amenity_name": "Wi-Fi в номере",
+                "c_amenity_group_id": 2079,
+                "c_amenity_group_name": "Интернет",
+                "c_amenity_group_priority": 4,
+                "c_amenity_priority_inside_group": 3
+            },
+            {
+                "c_amenity_id": 1085,
+                "c_amenity_name": "Обслуживание номеров",
+                "c_amenity_group_id": 2032,
+                "c_amenity_group_name": "Услуги",
+                "c_amenity_group_priority": 10,
+                "c_amenity_priority_inside_group": 7
+            }
+        ],
+        "images": [
+            "https://cdn.bronevik.com/static/photo/g/cb74ae6bdbf58b1b7c98b235507b9701",
+            "https://cdn.bronevik.com/static/photo/g/d174652fc78db31d283682d16c971219",
+            "https://cdn.bronevik.com/static/photo/g/3bf3e4a655f0a841db21fd9f5d528488",
+            "https://cdn.bronevik.com/static/photo/g/271d5ea81575f6e8bc9ae38f39954325"
+        ]
+    }
+]
