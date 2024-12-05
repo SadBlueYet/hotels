@@ -17,7 +17,7 @@ def write_to_json(file_path: str, data: dict):
                 existing_data = []
     else:
         existing_data = []
-        
+
     existing_data.append(data)
     with open(file_path, "w", encoding="utf-8") as file:
         json.dump(existing_data, file, ensure_ascii=False, indent=4)
