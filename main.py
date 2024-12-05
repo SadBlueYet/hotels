@@ -2,7 +2,7 @@ import json
 import logging
 import sys
 
-from openai import OpenAI, PermissionDeniedError
+from openai import OpenAI
 
 from config import settings
 from models import Amenities, Amenity
